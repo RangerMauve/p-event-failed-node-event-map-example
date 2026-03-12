@@ -1,0 +1,19 @@
+{
+  "name": "p-event-failed-node-event-map-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Example repo showing how p-event isn't extracting events from Node.js EventEmitter event maps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RangerMauve",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@tsconfig/node18": "^18.2.6",
+    "@types/node": "^18.19.130",
+    "p-event": "^7.1.0",
+    "typescript": "5.6"
+  }
+}
